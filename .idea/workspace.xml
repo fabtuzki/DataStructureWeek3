@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea74e024-e2b5-44e8-8e2a-8eb4f559d447" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/parallelProcessing.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/priorityQueueTuple2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makeHeap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/makeHeap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parallelProcessing.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/parallelProcessing.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/priorityQueueTuple2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/priorityQueueTuple2.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/makeHeap.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="82" selection-start-line="57" selection-end-line="82" />
+            <state relative-caret-position="310">
+              <caret line="55" selection-start-line="49" selection-end-line="55" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -34,8 +32,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/parallelProcessing.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="56">
+              <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,13 +44,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/priorityQueueTuple2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="242">
+              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>toInt</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>toLong</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,15 +67,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/makeHeap.scala" />
-        <option value="$PROJECT_DIR$/src/parallelProcessing.scala" />
         <option value="$PROJECT_DIR$/src/priorityQueueTuple2.scala" />
+        <option value="$PROJECT_DIR$/src/parallelProcessing.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="975" />
-    <option name="height" value="1059" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="373" />
+    <option name="width" value="1554" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -145,10 +154,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="299" y="0" width="1243" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1704698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.025359256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -157,15 +166,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.67785233" visible="true" weight="0.4362606" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.88588333" visible="true" weight="0.6676218" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.32214764" side_tool="true" visible="true" weight="0.4362606" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.114116654" side_tool="true" visible="true" weight="0.6676218" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48590603" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.47759932" weight="0.43696275" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -179,8 +188,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/makeHeap.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="82" selection-start-line="57" selection-end-line="82" />
+        <state relative-caret-position="310">
+          <caret line="55" selection-start-line="49" selection-end-line="55" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -189,15 +198,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/priorityQueueTuple2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="242">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parallelProcessing.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="56">
+          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
