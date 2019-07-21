@@ -67,6 +67,7 @@ println(output.length)
 
     if (minIndex != position) {
       val swap1 = tree(minIndex)
+
       val swap2 = tree(position)
       tree.update(minIndex, swap2)
       tree.update(position, swap1)
