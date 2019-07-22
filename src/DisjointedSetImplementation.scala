@@ -1,6 +1,7 @@
 class DisjointedSetImplementation(var tableList: Array[Int]) {
-  var setByInput = makeSet(tableList)
-  var rankOfTree = Array.fill(setByInput.length)(0)
+   
+  private var setByInput = makeSet(tableList)
+  private var rankOfTree = Array.fill(setByInput.length)(0)
 
   /*difference here is node containing value too, not just table indexing */
   def makeSet(input: Array[Int]): Array[tableValue] = {
