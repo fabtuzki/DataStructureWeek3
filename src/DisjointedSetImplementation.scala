@@ -1,10 +1,10 @@
 class DisjointedSetImplementation(var tableList: Array[Int]) {
-   
-  private var setByInput = makeSet(tableList)
-  private var rankOfTree = Array.fill(setByInput.length)(0)
+
+  var setByInput = makeSet(tableList)
+  var rankOfTree = Array.fill(setByInput.length)(0)
 
   /*difference here is node containing value too, not just table indexing */
-  def makeSet(input: Array[Int]): Array[tableValue] = {
+  private def makeSet(input: Array[Int]): Array[tableValue] = {
     //parent of each ID is ??
     val output = input.zipWithIndex.map(x => tableValue(x._2, x._1))
     output
@@ -33,11 +33,14 @@ class DisjointedSetImplementation(var tableList: Array[Int]) {
     if (rootTableNumber1.parentNode == rootTableNumber2.parentNode) {
       return null
     } else if (rankOfTree(rootTableNumber1.parentNode) > rankOfTree(rootTableNumber2.parentNode)) {
-      setByInput.update(rootTableNumber2.parentNode, tableValue(rootTableNumber1.parentNode, rootTableNumber2.nodeValue))
+      setByInput.update(rootTableNumber2.parentNode, tableValue(rootTableNumber1.parentNode, 0))
+      setByInput.update(rootTableNumber1.parentNode, tableValue(rootTableNumber1.parentNode, rootTableNumber2.nodeValue + rootTableNumber1.nodeValue))
+    } else {
+      setByInput.update(rootTableNumber1.parentNode, tableValue(rootTableNumber2.parentNode, 0))
+      setByInput.update(rootTableNumber2.parentNode, tableValue(rootTableNumber2.parentNode, rootTableNumber1.nodeValue + rootTableNumber2.nodeValue))
       if (rankOfTree(rootTableNumber1.parentNode) == rankOfTree(rootTableNumber2.parentNode)) {
         rankOfTree.update(rootTableNumber1.parentNode, rankOfTree(rootTableNumber1.parentNode) + 1)
       }
-
     }
 
   }
