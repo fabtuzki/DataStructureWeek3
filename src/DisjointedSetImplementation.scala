@@ -15,13 +15,13 @@ class DisjointedSetImplementation(var tableList: Array[Int]) {
     * 1 is return the tableValue
     * 2 is modify the parent of each node it tranverse through
     * let's try to write this in tail recursive manner */
-    var rootID = setByInput(tableNumber).parentNode
-    if (rootID != tableNumber) {
+    var rootID = setByInput(tableNumber-1).parentNode
+    if (rootID != tableNumber-1) {
       while (rootID != setByInput(rootID).parentNode) {
         rootID = setByInput(rootID).parentNode
       }
     }
-    setByInput.update(tableNumber, tableValue(rootID, setByInput(tableNumber).nodeValue))
+    setByInput.update(tableNumber-1, tableValue(rootID, setByInput(tableNumber-1).nodeValue))
     setByInput(rootID)
   }
 
@@ -49,4 +49,4 @@ class DisjointedSetImplementation(var tableList: Array[Int]) {
 }
 
 
-case class tableValue(parentNode: Int, nodeValue: Int)
+case class tableValue(parentNode: Int, nodeValue: Long)
