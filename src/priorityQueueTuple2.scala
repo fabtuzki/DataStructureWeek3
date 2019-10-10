@@ -1,4 +1,4 @@
-class priorityQueueTuple2(var tree: Array[ppUnit]) {
+/*class priorityQueueTuple2(var tree: Array[ppUnit]) {
 
   def buildHeap(size: Int): Unit = {
     for (i <- (0 to math.floor(size / 2).toInt).reverse) {
@@ -22,12 +22,12 @@ class priorityQueueTuple2(var tree: Array[ppUnit]) {
 
   def siftUp(position: Int): Unit = {
     var updatedPosition = position
-    while (updatedPosition > 0 && greaterPriority(tree(updatedPosition), tree(math.floor((updatedPosition-1) / 2).toInt))) {
+    while (updatedPosition > 0 && greaterPriority(tree(updatedPosition), tree(math.floor((updatedPosition - 1) / 2).toInt))) {
       val swap1 = tree(updatedPosition)
-      val swap2 = tree(math.floor((updatedPosition-1)  / 2).toInt)
+      val swap2 = tree(math.floor((updatedPosition - 1) / 2).toInt)
       tree.update(updatedPosition, swap2)
-      tree.update(math.floor((updatedPosition-1)  / 2).toInt, swap1)
-      updatedPosition = math.floor((updatedPosition-1)  / 2).toInt
+      tree.update(math.floor((updatedPosition - 1) / 2).toInt, swap1)
+      updatedPosition = math.floor((updatedPosition - 1) / 2).toInt
     }
   }
 
@@ -92,6 +92,6 @@ class priorityQueueTuple2(var tree: Array[ppUnit]) {
   */
 
 
-}
+}*/
 
-case class ppUnit(time: Long, thread: Int)
+//case class ppUnit(time: Long, thread: Int)

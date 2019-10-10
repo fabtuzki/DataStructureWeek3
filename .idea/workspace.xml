@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea74e024-e2b5-44e8-8e2a-8eb4f559d447" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DisjointedSetImplementation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/DisjointedSetImplementation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap$$anonfun$buildHeap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap$$anonfun$buildHeap$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap$$anonfun$compareTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$parallelProcessing$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$parallelProcessing$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$parallelProcessing$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/ppUnit$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/ppUnit$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/ppUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/ppUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/priorityQueueTuple2$$anonfun$buildHeap$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/priorityQueueTuple2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/makeHeap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/makeHeap.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mergeTable.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/mergeTable.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parallelProcessing.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/parallelProcessing.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/priorityQueueTuple2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/priorityQueueTuple2.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,17 +42,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DisjointedSetImplementation.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -42,18 +58,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/makeHeap.scala" />
-        <option value="$PROJECT_DIR$/src/priorityQueueTuple2.scala" />
-        <option value="$PROJECT_DIR$/src/parallelProcessing.scala" />
         <option value="$PROJECT_DIR$/src/DisjointedSetImplementation.scala" />
         <option value="$PROJECT_DIR$/src/mergeTable.scala" />
+        <option value="$PROJECT_DIR$/src/priorityQueueTuple2.scala" />
+        <option value="$PROJECT_DIR$/src/parallelProcessing.scala" />
+        <option value="$PROJECT_DIR$/src/makeHeap.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="509" />
-    <option name="width" value="1418" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="730" />
+    <option name="width" value="1199" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -61,7 +77,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,11 +93,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mobile monthly report/DrawGraph" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -96,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mergeTable">
+  <component name="RunManager" selected="Application.parallelProcessing">
     <configuration name="makeHeap" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="makeHeap" />
       <module name="PQHeapDS" />
@@ -120,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.mergeTable" />
         <item itemvalue="Application.parallelProcessing" />
+        <item itemvalue="Application.mergeTable" />
         <item itemvalue="Application.makeHeap" />
       </list>
     </recent_temporary>
@@ -140,10 +156,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="509" y="0" width="1418" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16863033" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1852349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -152,15 +167,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.88291603" visible="true" weight="0.27813852" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8765101" weight="0.07507082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.117083944" side_tool="true" visible="true" weight="0.27813852" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.12348993" side_tool="true" visible="true" weight="0.07507082" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.47275406" weight="0.43398267" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.44026846" weight="0.6671388" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -172,46 +187,46 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/priorityQueueTuple2.scala" />
-    <entry file="file://$PROJECT_DIR$/src/parallelProcessing.scala" />
-    <entry file="file://$PROJECT_DIR$/src/makeHeap.scala">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/NumberFormatException.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java" />
+    <entry file="file://$PROJECT_DIR$/src/DisjointedSetImplementation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="55" selection-start-line="49" selection-end-line="55" />
+        <state relative-caret-position="22">
+          <caret line="29" column="25" selection-end-line="51" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/priorityQueueTuple2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parallelProcessing.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="568" column="48" selection-start-line="568" selection-start-column="48" selection-end-line="568" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mergeTable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1122">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DisjointedSetImplementation.scala">
+    <entry file="file://$PROJECT_DIR$/src/makeHeap.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

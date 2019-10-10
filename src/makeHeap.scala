@@ -1,51 +1,57 @@
 import scala.collection.mutable.ArrayBuffer
 import scala.io.Source
-import scala.math
 
 object makeHeap {
   var swapDetail = new ArrayBuffer[String]
 
   def main(args: Array[String]): Unit = {
 
-    val inputTest = Source.fromFile("C:\\Users\\Jade Phung\\Documents\\homework2\\week2_priority_queues_and_disjoint_sets\\1_make_heap\\tests\\04").getLines().toArray
-    val input = inputTest(1).split(" ").map(_.toInt)
+    //    val inputTest = Source.fromFile("C:\\Users\\Jade Phung\\Documents\\homework2\\week2_priority_queues_and_disjoint_sets\\1_make_heap\\tests\\04").getLines().toArray
+    //    val input = inputTest(1).split(" ").map(_.toInt)
+    //
+    //    val outputTest = Source.fromFile("C:\\Users\\Jade Phung\\Documents\\homework2\\week2_priority_queues_and_disjoint_sets\\1_make_heap\\tests\\04.a").getLines().toArray
+    //    val output = outputTest.drop(1)
+    //
+    //    println(compareTest(input, output))
+    //    println(output.length)
+    //    println(swapDetail.length)
+    //    println(input.length)
 
-    val outputTest = Source.fromFile("C:\\Users\\Jade Phung\\Documents\\homework2\\week2_priority_queues_and_disjoint_sets\\1_make_heap\\tests\\04.a").getLines().toArray
-    val output = outputTest.drop(1)
 
-    println(compareTest(input, output))
-println(output.length)
+    val input = scala.io.Source.stdin.getLines().toArray
+    //        val input = Array(5, 4, 3, 2, 1)
+    buildHeap(input(0).toInt, input(1).split(" ").map(_.toInt))
     println(swapDetail.length)
-    println(input.length)
-
-
+    swapDetail.foreach(println(_))
   }
 
-  def compareTest(input: Array[Int], output: Array[String]): Boolean = {
+  /*
+    def compareTest(input: Array[Int], output: Array[String]): Boolean = {
 
-    var check = 0
+      var check = 0
 
-    buildHeap(input.length, input)
+      buildHeap(input.length, input)
 
-    for (i <- 0 until output.length) {
-      if (swapDetail(i) != output(i)) {
-        println("error swapdetail: " + swapDetail(i))
-        println("error output real: " + output(i))
-        println("error at row : " + i)
-        check += 1
+      for (i <- 0 until output.length) {
+        if (swapDetail(i) != output(i)) {
+          println("error swapdetail: " + swapDetail(i))
+          println("error output real: " + output(i))
+          println("error at row : " + i)
+          check += 1
 
+        }
+
+
+      }
+      if (check > 0) {
+        false
+      } else {
+        true
       }
 
 
     }
-    if (check > 0) {
-      false
-    } else {
-      true
-    }
-
-
-  }
+  */
 
   def buildHeap(size: Int, tree: Array[Int]): Unit = {
     for (i <- (0 to math.floor(size / 2).toInt).reverse) {
@@ -67,11 +73,10 @@ println(output.length)
 
     if (minIndex != position) {
       val swap1 = tree(minIndex)
-
       val swap2 = tree(position)
       tree.update(minIndex, swap2)
       tree.update(position, swap1)
-      swapDetail.append(position + " " +  minIndex)
+      swapDetail.append(position + " " + minIndex)
     } else {
       return null
     }
