@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea74e024-e2b5-44e8-8e2a-8eb4f559d447" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap$$anonfun$buildHeap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap$$anonfun$buildHeap$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap$$anonfun$compareTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/makeHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/mergeTable$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$parallelProcessing$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$parallelProcessing$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$$anonfun$parallelProcessing$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/parallelProcessing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/ppUnit$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/ppUnit$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/ppUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PQHeapDS/ppUnit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/priorityQueueTuple2$$anonfun$buildHeap$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PQHeapDS/priorityQueueTuple2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makeHeap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/makeHeap.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mergeTable.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/mergeTable.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parallelProcessing.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/parallelProcessing.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/priorityQueueTuple2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/priorityQueueTuple2.scala" afterDir="false" />
-    </list>
+    <list default="true" id="ea74e024-e2b5-44e8-8e2a-8eb4f559d447" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,9 +38,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="730" />
-    <option name="width" value="1199" />
-    <option name="height" value="1039" />
+    <option name="x" value="-10" />
+    <option name="width" value="975" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -98,7 +69,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CourseraAssignmentWeek4" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
